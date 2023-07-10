@@ -1,4 +1,4 @@
-package main
+package hello_world
 
 import (
 	"fyne.io/fyne/v2"
@@ -13,7 +13,7 @@ type App struct {
 
 var testApp App
 
-func main() {
+func HelloWorld() {
 	a := app.New()
 	w := a.NewWindow("Hello, World!")
 
