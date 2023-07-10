@@ -1,3 +1,7 @@
+/*
+Fyne is a platform agnostic GUI framework
+built in and for Go.
+*/
 package hello_world
 
 import (
