@@ -29,6 +29,8 @@ func Markdown() {
 	// create a fyne app
 	a := app.New()
 
+	// theme can be customized as shown in the theme.go file
+	a.Settings().SetTheme(&myTheme{})
 	// create a window for the app
 	win := a.NewWindow("markdown")
 
